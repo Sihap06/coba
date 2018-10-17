@@ -1,0 +1,142 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.background {
+	width: 1300px;
+	height: 3000px;
+	background-color:#F5F5F5;
+	position: absolute;
+	margin-left: 25px;
+	z-index: 0;
+	margin-bottom: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top 	{
+	width: 1300px;
+	height: 3px;
+	background-color: blue;
+	background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+	margin-left: 25px;
+	z-index: 2;
+	position: absolute;
+}
+
+.top-head {
+	width: 1300px;
+	height: 30px;
+	background-color: #696969;
+	position: absolute;
+	z-index: 1;
+	margin-left: 25px;
+}
+
+.bottom-head {
+	width: 1300px;
+	height: 46px;
+	background-color: #696969;
+	position: absolute;
+	z-index: 1;
+	margin-left: 25px;
+	margin-top: 150px;
+}
+
+.top-daftar-pariwisata {
+	width: 800px;
+	height: 80px;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	position: relative;
+	z-index: 2;
+	background-color: #F5F5F5;
+	margin: 0;
+}
+
+.daftar-pariwisata {
+	width: 800px;
+	height: 1700px;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	position: absolute;
+	z-index: 2;
+	background-color: #F5F5F5;
+	margin-top: 290px;
+	margin-left: 60px;
+}
+
+p {
+	margin: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.Recent {
+	width: 390px;
+	height: 700px;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	position: absolute;
+	z-index: 2;
+	background-color: #F5F5F5;
+	margin-top: 370px;
+	margin-left: 900px;
+}
+
+
+body {
+	margin: 0;
+}
+
+.nav ul	{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.nav ul li {
+	float: left;
+}
+
+.nav ul li a 	{
+	display: block;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: steelblue;
+}
+
+div.daftar-pariwisata img {
+	width: 25%;
+	height: 25%;
+	margin: 20px;
+	position: relative;
+}
+
+div.daftar-pariwisata h2 {
+	position: absolute;
+	margin: 20px;
+	margin-left: 250px;
+}
+
+div.daftar-pariwisata p {
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 50px;
+
+}
+
+.page ul 
+{
+	position: absolute;
+	margin-top: 2000px;
+}

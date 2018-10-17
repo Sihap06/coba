@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pariwisata Jember</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style type="text/css">
+	body{
+		margin: 0;
+		background-color: steelblue;
+		background-image: url(Gambar/002.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+
+	div.konten {
+		width: 500px;
+		height: 550px;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 80px auto 0;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+
+	.kepala-konten {
+		width: 300px;
+		height: 50px;
+		background-color: steelblue;
+		padding: 5px 120px;
+
+	}
+
+	.kepala-konten h2.judul	{
+		color: white;
+		font-weight: normal;
+		line-height: 40px;
+		position: relative;
+		margin-top: 7px;
+		margin-left: 48px; 
+	}
+
+	.artikel {
+		padding: 5px 20px 0;
+		color: #808080;
+	}
+
+	.artikel .grup {
+		margin: 16px 0;
+	}
+
+	.artikel .grup label,
+	.artikel .grup input {
+		display: block;
+	}
+
+	.artikel .grup label {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}	
+
+
+
+	.artikel .grup input[list="lokasi"],
+	.artikel .grup input[list="jenis-wisata"],
+	.artikel .grup input[list="Tiket"],
+	.artikel .grup input[type="text"],
+	.artikel .grup input[type="password"]{
+		width: 95%;
+		height: 30px;
+		padding: 0 10px;
+		background: #eeeeee;
+		border: none;
+		color: #808080;
+	}
+
+	.artikel .grup input[type="submit"]{
+		background: steelblue;
+		width: 100px;
+		padding: 4px 16px;
+		margin: 0 auto;
+		border: 1px solid steelblue;
+		border-radius: 2px;
+		color: white;
+		cursor: pointer; 
+	}
+
+	.artikel .grup input[type="submit"]:hover {
+		background: gray;
+	}
+
+
+
+
+</style>
+<body>
+	<div class="konten">
+		<div class="kepala-konten">
+			<h2 class="judul">Pariwisata Jember</h2>
+		</div>
+		<div class="artikel">
+			<form action="Home.html">
+				<div class="grup">
+					<label for="nama">Nama Lengkap</label>
+					<input type="text" name="nama" placeholder="Masukkan Nama Anda">
+				</div>
+				<div class="grup">
+					<label for="alamat">Alamat</label>
+					<input type="text" name="alamat" placeholder="Masukkan Alamat Anda">
+				</div>
+				<div class="grup">
+					<label for="telp">Nomor Telepon</label>
+					<input type="text" name="telp" placeholder="Masukkan Nomor Telepon">
+				</div>
+				<div class="grup">
+					<label for="lokasi">Lokasi</label>
+					<input list="lokasi" name="tempat" placeholder="Masukkan Lokasi">
+					<datalist id="lokasi">
+						<option value="Ambulu"></option>
+						<option value="Jenggawah"></option>
+						<option value="Wuluhan"></option>
+					</datalist>
+				</div>
+				<div class="grup">
+					<label for="jenis-wisata">Jenis Wisata</label>
+					<input list="jenis-wisata" name="Wisata" placeholder="Masukkan Jenis Wisata">
+					<datalist id="jenis-wisata">
+						<option value="Pantai"></option>
+						<option value="Air Terjun"></option>
+						<option value="Kebun Binatang"></option>
+						<option value="Hutan"></option>
+					</datalist>
+				</div>
+				<div class="grup">
+					<label for="Tiket">Harga Tiket Masuk</label>
+					<input list="Tiket" name="Tiket" placeholder="Masukkan Harga Tiket">
+					<datalist id="Tiket">
+						<option value="Free"></option>
+						<option value="Rp 3000"></option>
+						<option value="Rp 5000"></option>
+						<option value="Rp 7000"></option>
+						<option value="Rp 10000"></option>
+					</datalist>
+				</div>
+				<div class="grup">
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+	</div>
+	
+
+</body>
+</html>
